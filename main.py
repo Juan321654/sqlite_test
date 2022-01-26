@@ -44,5 +44,6 @@ for i in gta_search:
                 cities_search[0][0] else value for value in i]
     print(adjusted)
 
+connection.commit()  # save changes
 
 connection.close()
